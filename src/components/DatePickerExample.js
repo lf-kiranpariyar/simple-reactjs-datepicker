@@ -10,12 +10,15 @@ import React from 'react';
 //Component
 import DatePickerComponent from './date-picker/DatePickerComponent';
 
+//Libraries
+import moment from 'moment';
+
 class DatePickerExample extends React.Component {
 
   constructor(props) {
     super(props);
     this.state = {
-      date: ''
+      date: {}
     }
   }
 
@@ -25,7 +28,7 @@ class DatePickerExample extends React.Component {
 
   render() {
     return (
-      <DatePickerComponent date={this.state.date}
+      <DatePickerComponent date={moment()}
                            onChange={this.handleDateChange}/>
     );
   }

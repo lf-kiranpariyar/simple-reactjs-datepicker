@@ -229,7 +229,7 @@ DatePickerComponent.defaultProps = {
 DatePickerComponent.propTypes = {
   dateFormat: React.PropTypes.string,
   noOfYear: React.PropTypes.number,
-  date: React.PropTypes.string.isRequired,
+  date: React.PropTypes.object.isRequired,
   onChange: React.PropTypes.func.isRequired
 };
 
