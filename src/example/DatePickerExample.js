@@ -8,7 +8,7 @@
 import React from 'react';
 
 //Component
-import DatePickerComponent from './DatePickerComponent';
+import DatePickerComponent from '../DatePickerComponent';
 
 //Libraries
 import moment from 'moment';

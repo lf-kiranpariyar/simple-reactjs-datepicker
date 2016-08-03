@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
-import DatePickerExample from './lib/DatePickerExample';
+import DatePickerExample from './example/DatePickerExample';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 render(
