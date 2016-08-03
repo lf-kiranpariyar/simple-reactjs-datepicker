@@ -64,5 +64,5 @@ The most basic use of the DatePicker can be described with:
 |:---|:---|:---|
 | date | `Object`, `required` | Current date in datepicker |
 | onChange | `function`, `required` | Call back function for getting current date |
-| noOfYear | `number`, 'non-required'| Total number of year in datepicker |
-| dateFormat | `String`, 'non-required' | Date format of any |
+| noOfYear | `number`, `non-required` | Total number of year in datepicker |
+| dateFormat | `String`, `non-required` | Date format of any |
