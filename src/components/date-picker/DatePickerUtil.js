@@ -8,7 +8,8 @@ class DatePickerUtil {
 
   static generateYear(currentYear, noOfYearToGenerate) {
     let years = [];
-    for (let i = currentYear; i >= currentYear - noOfYearToGenerate; i--) {
+    let startingYear =  currentYear - noOfYearToGenerate;
+    for (let i = currentYear; i > startingYear; i--) {
       years.push(i);
     }
     return years;
