@@ -19,7 +19,7 @@ class DatePickerExample extends React.Component {
     super(props);
     this.state = {
       date: {}
-    }
+    };
   }
 
   handleDateChange(date) {
