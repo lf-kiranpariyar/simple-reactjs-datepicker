@@ -11,7 +11,7 @@ import moment from 'moment';
 import expect from 'expect';
 
 //Component
-import DatePicker from '../../../src/components/date-picker/DatePickerComponent';
+import DatePicker from '../src/lib/DatePickerComponent';
 
 function setup(params) {
   let props = {

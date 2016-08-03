@@ -7,7 +7,7 @@
 //Libraries
 import expect from 'expect';
 
-import DatePickerUtil from '../../../src/components/date-picker/DatePickerUtil';
+import DatePickerUtil from '../src/lib/DatePickerUtil';
 
 describe('DatePickerUtil', ()=> {
   describe('generateYear', ()=> {
