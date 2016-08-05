@@ -4,8 +4,4 @@ tools
 webpack.config.dev.js
 webpack.config.js
 test
-src/index.html
-src/index.js
-src/example/
-src/utils/
-
+src/
