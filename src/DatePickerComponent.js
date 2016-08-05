@@ -5,7 +5,7 @@ import React from 'react';
 import moment from 'moment';
 
 //Utils
-import DatePickerUtil from './utils/DatePickerUtil';
+import DatePickerUtil from './DatePickerUtil';
 
 class DatePickerComponent extends React.Component {
   constructor(props) {
