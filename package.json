@@ -1,7 +1,7 @@
 {
   "name": "simple-reactjs-datepicker",
   "version": "1.0.7",
-  "description": "",
+  "description": "Three field select type datepicker in React js",
   "main": "dist/DatePickerComponent.js",
   "scripts": {
     "compile": "babel --presets=es2015 -d dist src",
