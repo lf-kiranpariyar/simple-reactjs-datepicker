@@ -6,8 +6,9 @@ Simple three field select type react datepicker
 - The package can be installed via NPM :
 
 ```
-npm install simple-reactjs-datepicker --save
+npm install simple-reactjs-datepicker@1.0.7 --save
 ```
+ note : version less than 1.0.7 are deprecated
 
 ## To build the **new** examples locally :
   
@@ -17,12 +18,15 @@ npm install simple-reactjs-datepicker --save
 
 ## Usage
 
+You’ll need to install React and Moment.js separately.
+ - ``` npm install --save moment ```
+
 Below is a simple example on how to use the Datepicker in a React view.
 
 ```js
 //React dependencies
 import React from 'react';
-import DatePicker from 'simple-reactjs-datepicker'
+import DatePickerComponent from 'simple-reactjs-datepicker'
 
 //Libraries
 import moment from 'moment';
@@ -42,7 +46,7 @@ class DatePickerExample extends React.Component {
 
   render() {
     return (
-      <DatePicker date={moment()}
+      <DatePickerComponent date={moment()}
                   onChange={this.handleDateChange} />
     );
   }
@@ -55,7 +59,7 @@ class DatePickerExample extends React.Component {
 The most basic use of the DatePicker can be described with:
 
 ```js
-<DatePicker selected={this.state.date} onChange={this.handleChange} />
+<DatePickerComponent selected={this.state.date} onChange={this.handleChange} />
 ```
 
 ## PropTypes options
